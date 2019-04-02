@@ -5,6 +5,7 @@
  */
 package boletin24_1;
 
+
 /**
  *
  * @author clamascabaleiro
@@ -95,8 +96,7 @@ public class Paleta24_1 extends javax.swing.JFrame {
                         .addGap(58, 58, 58)
                         .addGroup(panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(liText1, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(textPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(62, 62, 62))
             .addGroup(panelLayout.createSequentialGroup()
                 .addGap(24, 24, 24)
@@ -153,6 +153,8 @@ public class Paleta24_1 extends javax.swing.JFrame {
     private void bLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bLimparActionPerformed
         liText1.setText(null);
         textPassword.setText(null);
+        textArea.setText(null);
+        
     }//GEN-LAST:event_bLimparActionPerformed
 
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
